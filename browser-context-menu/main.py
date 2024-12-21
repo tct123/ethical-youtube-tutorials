@@ -12,9 +12,7 @@ def main(page: ft.Page):
 
     page.add(
         ft.Switch(
-            label="Enable Browser Context Menu",
-            value=True,
-            on_change=handle_change
+            label="Enable Browser Context Menu", value=True, on_change=handle_change
         )
     )
 
